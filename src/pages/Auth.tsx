@@ -104,7 +104,7 @@ const Auth = () => {
         </div>
 
         <form onSubmit={handleAuth} className="space-y-6">
-          <div className="space-y-2 animate-fade-in" style={{ animationDelay: '0.3s' }}>
+          <div className="space-y-2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <Label htmlFor="email">メールアドレス</Label>
             <Input
               id="email"
